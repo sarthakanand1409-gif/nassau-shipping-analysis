@@ -1,0 +1,60 @@
+State/Province,Avg_Lead_Time,Volume,Total_Sales,Avg_Profit_Margin,Is_Bottleneck,Performance_Category
+West Virginia,1638.0,4,63.97,67.76,False,Slow Route
+North Dakota,1637.86,7,109.66,68.14,False,Slow Route
+Saskatchewan,1457.0,2,29.25,64.92,False,Slow Route
+Manitoba,1455.33,12,138.25,65.28,False,Slow Route
+Iowa,1443.9,30,400.37,67.3,False,Slow Route
+New Mexico,1441.84,37,502.71,66.41,False,Slow Route
+Vermont,1438.91,11,162.44,66.43,False,Slow Route
+Prince Edward Island,1420.3,10,130.1,68.01,False,Slow Route
+South Dakota,1395.92,12,151.34,68.82,False,Slow Route
+Tennessee,1391.49,183,2383.56,66.25,True,Critical Bottleneck
+Indiana,1381.5,149,2002.78,66.89,False,Slow Route
+Washington,1360.66,506,6921.15,66.52,True,Critical Bottleneck
+Connecticut,1357.55,82,980.57,65.84,False,Slow Route
+Maryland,1356.78,105,1476.99,66.89,False,Slow Route
+District Of Columbia,1347.7,10,142.25,67.15,False,Slow Route
+Wisconsin,1343.0,110,1920.5,66.69,False,Standard
+Idaho,1342.57,21,225.25,67.7,False,Standard
+Missouri,1339.86,66,882.83,66.83,False,Standard
+Georgia,1338.64,184,2692.84,66.63,False,High-Volume Healthy
+New Jersey,1338.33,130,1578.35,65.51,False,Standard
+Colorado,1337.19,182,2544.91,66.42,False,High-Volume Healthy
+Minnesota,1335.47,89,1161.46,66.97,False,Standard
+North Carolina,1334.88,249,3450.86,67.38,False,High-Volume Healthy
+Kentucky,1328.45,139,1880.63,66.24,False,Standard
+Ohio,1325.73,469,6768.95,66.52,False,High-Volume Healthy
+Rhode Island,1324.8,56,805.76,65.02,False,Standard
+New York,1324.49,1128,15541.03,66.34,False,High-Volume Healthy
+Pennsylvania,1324.2,587,8027.03,66.16,False,High-Volume Healthy
+Illinois,1323.15,492,6898.96,66.98,False,High-Volume Healthy
+California,1318.43,2001,27917.4,66.61,False,High-Volume Healthy
+Florida,1311.4,383,4804.02,66.63,False,High-Volume Healthy
+Nebraska,1311.24,38,483.53,67.51,False,Standard
+Texas,1310.31,985,13416.09,66.67,False,High-Volume Healthy
+Arizona,1309.21,224,3587.55,66.6,False,High-Volume Healthy
+Massachusetts,1308.32,135,1806.99,65.59,False,Standard
+Oklahoma,1301.36,66,877.65,67.66,False,Standard
+Michigan,1300.56,255,3331.0,67.01,False,High-Volume Healthy
+New Hampshire,1300.04,27,428.27,62.21,False,Standard
+Alabama,1291.28,61,995.11,64.69,False,Standard
+British Columbia,1290.32,22,290.9,67.53,False,Standard
+Quebec,1288.24,50,597.68,66.09,False,Standard
+Arkansas,1285.73,60,891.94,66.61,False,Standard
+Alberta,1274.08,26,530.32,66.52,False,Standard
+Wyoming,1274.0,1,13.96,71.35,False,Standard
+Montana,1273.8,15,202.11,67.2,False,Standard
+Kansas,1273.29,24,263.18,67.78,False,Standard
+New Brunswick,1273.25,8,172.72,68.34,False,Standard
+Nova Scotia,1272.67,6,87.5,65.06,False,Standard
+Delaware,1269.75,96,1323.59,65.39,False,Standard
+Oregon,1267.71,124,1920.15,66.61,False,Standard
+Mississippi,1266.57,53,844.18,67.25,False,Standard
+Louisiana,1263.79,42,525.21,65.6,False,Standard
+South Carolina,1255.43,42,601.07,65.56,False,Standard
+Utah,1253.0,53,856.41,66.79,False,Standard
+Ontario,1247.47,58,814.57,66.68,False,Standard
+Virginia,1229.12,224,3177.84,65.6,False,High-Volume Healthy
+Nevada,1226.79,39,759.46,65.26,False,Standard
+Newfoundland And Labrador,1216.17,6,162.0,69.44,False,Standard
+Maine,1137.12,8,126.48,68.73,False,Standard

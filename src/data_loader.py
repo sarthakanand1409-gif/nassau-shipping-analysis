@@ -71,7 +71,7 @@ import os
 
 if __name__== '__main__':
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(script_dir, '..', 'data', 'processed', 'cleaned_data.csv')
+    file_path = os.path.join(script_dir, '..', 'data', 'Processed', 'cleaned_data.csv')
     
     # Ensure the directory exists or print a helpful message
     if not os.path.exists(file_path):

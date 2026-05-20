@@ -1,0 +1,5 @@
+Ship Mode,Volume,Avg_Lead_Time,Median_Lead_Time,Lead_Time_Std,Total_Sales,Avg_Sales_Per_Order,Avg_Profit_Margin,Volume_%
+Standard Class,6120,1314.33,1274.0,262.4,85490.35,13.97,66.55,60.04
+Second Class,1979,1323.85,1273.0,261.81,27860.22,14.08,66.46,19.41
+Same Day,547,1333.44,1269.0,253.81,7113.67,13.0,66.51,5.37
+First Class,1548,1338.28,1272.0,265.63,21319.39,13.77,66.46,15.19

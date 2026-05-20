@@ -1,6 +1,7 @@
 """
 Compute route-level KPIs as defined in the project spec.
 """
+import os
 import pandas as pd
 import numpy as np
 
@@ -65,17 +66,19 @@ def top_bottom_routes(route_kpi_df, n=10, min_volume=10):
 
 
 if __name__ == '__main__':
-    df = pd.read_csv('../data/processed/cleaned_data.csv')
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(script_dir, '..', 'data', 'Processed')
+    df = pd.read_csv(os.path.join(data_dir, 'cleaned_data.csv'))
 
     # Compute route-state KPIs
     route_state_kpis = compute_route_kpis(df, 'Route_State')
-    route_state_kpis.to_csv('../data/processed/route_state_kpis.csv', index=False)
+    route_state_kpis.to_csv(os.path.join(data_dir, 'route_state_kpis.csv'), index=False)
     print(f"✓ Route-state KPIs: {len(route_state_kpis)} routes")
     print(route_state_kpis.head(10))
 
     # Compute route-region KPIs
     route_region_kpis = compute_route_kpis(df, 'Route_Region')
-    route_region_kpis.to_csv('../data/processed/route_region_kpis.csv', index=False)
+    route_region_kpis.to_csv(os.path.join(data_dir, 'route_region_kpis.csv'), index=False)
     print(f"\n✓ Route-region KPIs: {len(route_region_kpis)} routes")
 
     # Top/bottom routes
