@@ -1,12 +1,4 @@
 
-│   └── .streamlit/
-│       └── config.toml
-├── reports/
-│   ├── research_paper.md
-│   └── executive_summary.md
-├── requirements.txt
-├── README.md
-└── .gitignore
 ```
  
 ---
