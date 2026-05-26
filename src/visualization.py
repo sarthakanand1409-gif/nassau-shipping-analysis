@@ -1,6 +1,9 @@
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from data_loader import US_STATE_COORDS
 
 
 def plot_lead_time_by_ship_mode(df):
@@ -137,7 +140,6 @@ def plot_route_network_map(df, top_n=20):
 
     # Add customer coordinates if missing
     if 'Customer Latitude' not in df.columns or 'Customer Longitude' not in df.columns:
-        from data_loader import US_STATE_COORDS
         df['Customer Latitude'] = df['State/Province'].map(lambda s: US_STATE_COORDS.get(s, (None, None))[0])
         df['Customer Longitude'] = df['State/Province'].map(lambda s: US_STATE_COORDS.get(s, (None, None))[1])
         df = df.dropna(subset=['Customer Latitude', 'Customer Longitude'])

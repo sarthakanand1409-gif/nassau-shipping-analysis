@@ -13,7 +13,7 @@ st.set_page_config(
 # ---------- Data loading (cached) ----------
 @st.cache_data
 def load_data():
-    base = os.path.join(os.path.dirname(__file__), '..', 'data', 'processed')
+    base = os.path.join(os.path.dirname(__file__), '..', 'data', 'Processed')
     df = pd.read_csv(os.path.join(base, 'cleaned_data.csv'))
     df['Order Date'] = pd.to_datetime(df['Order Date'])
     df['Ship Date'] = pd.to_datetime(df['Ship Date'])
@@ -64,9 +64,17 @@ st.session_state['delay_threshold'] = delay_threshold
 st.session_state['route_kpis'] = route_kpis
 st.session_state['state_perf'] = state_perf
 
+# ---------- Hide default Streamlit footer branding ----------
+st.markdown("""
+<style>
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+</style>
+""", unsafe_allow_html=True)
+
 # ---------- Home Page ----------
 st.title('🍬 Nassau Candy Distributor — Shipping Analytics')
-st.markdown('Factory-to-customer shipping route efficiency dashboard')
+st.markdown('Factory-to-customer shipping route efficiency dashboard — Powered by **Streamlit**')
 
 # KPI Cards
 col1, col2, col3, col4 = st.columns(4)
